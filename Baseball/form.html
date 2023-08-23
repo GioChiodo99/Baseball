@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatiable" content="ie=edge">
+        <title>Pacific North West - Seattle Rattlers</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Code+Pro:wght@300;400&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+            <header>
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="snakelogo" src="images/Snake-removebg-preview.png" alt="Snake logo">
+                    </a>
+                </div>
+
+                <nav>
+                   <a href="index.html" class="navbutton">Home</a>
+                   <a href="form.html" class="navbutton">Registration</a>
+                   <a href="#" class="navbutton">Contact</a>
+                   <a href="#" class="navbutton">Sponsor</a>
+                   <a href="#" class="navbutton">Cart</a>
+                </nav>
+                    
+            </header>
+
+
+
+            <div class="main2">
+                
+                <h1>Tryout Registration</h1>
+                <p> Please Note:  There is a $25 registration fee, this is a non refundable fee.  Once this registration form is submitted please scroll down and add the Tryout Registration Fee to the shopping cart and make the payment.  When the payment is received, the player will be added to the appropriate tryout date.  There are a limited number of spots available for each tryout date.  Please be advised that the player is added to the requested date only after the registration is paid.  Thank you. </p>
+
+                <form action="mail.php" method="post">
+
+                    <div class="inputwrapper">
+                        <label for="name" class="newline">Parent/Guardian Name</label>
+                        <input type="text" name="name" id="name" placeholder="First Name">
+                        <input type="text" name="name" id="name" placeholder="Last Name">
+                    </div>
+
+                    <div class="inputwrapper">
+                        <label for="email" class="newline">Email</label>
+                        <input type="email" name="email" id="email" placeholder="@gmail.com">
+                    </div>
+
+                    <div class="inputwrapper">
+                        <label for="phone" class="newline">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" placeholder="123-456-7890">
+                    </div>
+
+                    <div class="inputwrapper">
+                        <label for="address" class="newline">Address</label>
+                        <input type="text" name="address" id="address" placeholder="1234 Main St">
+                        <label for="city" class="newline">City</label>
+                        <input type="text" name="city" id="city" placeholder="City">
+                        <label for="state" class="newline">State</label>
+                        <input type="text" name="state" id="state" placeholder="State">
+                        <label for="zip" class="newline">Zip Code</label>
+                        <input type="text" name="zip" id="zip" placeholder="Zip Code">
+                        <label for="Country" class="newline">Country</label>
+                        <input type="text" name="Country" id="Country" placeholder="Country">
+                    </div>
+
+                    <div class="inputwrapper">
+                        <label for="name" class="newline">Player Name</label>
+                        <input type="text" name="name" id="name" placeholder="First Name">
+                        <input type="text" name="name" id="name" placeholder="Last Name">
+                    </div>
+
+                    <div class="inputwrapper">
+                        <label for="birthdate">Player Birthdate (MM/DD/YY)</label>
+                        <input type="date" name="birthdate" id="birthdate" placeholder="Birthdate">
+                    </div>
+
+                    <div class="inputwrapper">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="@gmail.com">
+                    </div>
+
+                    <div class="inputwrapper">
+                        <label for="school" class="newline">What School do you currently attend?</label>
+                        <input type="text" name="school" id="school" placeholder="School">
+                    </div>
+
+                    
+                    <div class="inputwrapper">
+                        <label for="school">What highschool do you plan to attend?</label>
+                        <input type="text" name="school" id="school" placeholder="School">
+                    </div>
+                    
+                    <p>Position Played</p>
+                    <div class="inputwrapper">
+                        
+                        <input type="checkbox" name="position" id="position">
+                        <label for="position">Pitcher</label>
+                        
+                        <input type="checkbox" name="position" id="position">
+                        <label for="position">Catcher</label>
+                        
+                        <input type="checkbox" name="position" id="position"><label for="position">Utility Infield</label>
+                        
+                        <input type="checkbox" name="position" id="position">
+                        <label for="position">Utility Outfield</label>
+                    </div>
+
+                    <div class="inputwrapper">
+                        <label for="otherteam">Current Team/Previous Team(s)</label>
+                        <input type="text" name="otherteam" id="otherteam" placeholder="Team Name">
+                    </div>
+                      
+                    <p>Is baseball your primary sport?</p>
+                    <div class="inputwrapper"> 
+                        <input type="radio" name="sport" id="sport">
+                        <label for="sport">Yes</label>
+                            
+                        <input type="radio"        name="sport"id="sport">
+                        <label for="sport">No</label>
+                    </div>
+
+                    <div class="inputwrapper">
+                        <label for="message" class="newline">What other sports do you play?</label>
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="I also play..."></textarea>
+
+                        <p>Notes about tryouts:  If selected for Day 2 of tryouts, please be prepared to attend Day 2 on Sunday, July 30 from 3pm to 6pm at Petrovitksy Park.  Parents will be notified by the coaches following Day 1 Tryout.  Please be sure to have each player bring all of their baseball gear, this includes bats, gloves, mitts, catcher's gear, helmets, etc.  Each player should also bring plenty of water with them to the field.</p>
+
+                    <div class="inputwrapper">
+                        <label for="message" class="newline">Comment</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Let us know what you think"></textarea>
+                    </div>
+
+                  
+                    
+
+                    <input type="submit" class="Rbutton" value="submit">
+
+                </form>
+
+            </div>
+            </div>    
+        </div>
+    </body>
+</html>

@@ -1,0 +1,218 @@
+html {
+    background-image: linear-gradient(to top, #808080, #000000);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.25rem
+}
+
+.container {
+    width: 1024px;
+    /* background-color: rgb(18, 60, 12); */
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    /* background-color: rgb(49, 155, 35); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+main {
+    /* background-color: rgb(12, 15, 11); */
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2{
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.cards {
+    /* background-color: rgb(70, 255, 45); */
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1, .card2, .card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+
+.card1 {
+    background-image: url(../images/card1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.card2 {
+    /* background-color: rgb(31, 22, 194); */
+    background-image: url(../images/cards3.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.card3 {
+    /* background-color: rgb(31, 22, 194); */
+    background-image: url(../images/Card2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.9);  
+}
+
+
+.herobox1 {
+    /* background-color: cornflowerblue; */
+    flex: 2;
+    padding-right: 20px;
+}
+
+.herobox2 {
+    /* background-color: mintcream; */
+    flex: 1;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.25rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+}
+
+p {
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.Logo {
+    Width: 350px;
+    height: 300px;
+}
+
+.snakelogo {
+    Width: 150px;
+    height: 100px;
+}
+
+
+.cards p {
+    color: white;
+    font-size: .90rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    text-align:center;
+}
+
+.cards h2 {
+    color: white;
+    font-size: 1.50rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1.25rem;
+    text-align:center;
+    margin-top: 1px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
+
+.cards a {
+    color: blue;
+    text-decoration: none;  
+}
+
+
+.Rbutton {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.382);
+}
+
+.Rbutton:hover {
+    background-color: rgba(5, 5, 5, 0.227);
+    transition-duration: 0.3s;
+    color: white;
+}
+
+a.Rbutton {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbutton {
+    padding: 11px 25px;
+    border: 3px solid white;
+    font-family: 'Playfair Display', serif;
+}
+
+a.navbutton {
+    text-decoration: none;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.382);
+    
+}
+
+.navbutton:hover {
+    background-color: grey;
+    transition-duration: 0.3s;
+    color: black;
+}
+
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.inputwrapper {
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=date], input[type=submit], textarea {
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.382);
+}
+
+.newline {
+    margin-bottom: 20px;
+}
